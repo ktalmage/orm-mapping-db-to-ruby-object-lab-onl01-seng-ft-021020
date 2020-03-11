@@ -53,7 +53,7 @@ class Student
         SELECT COUNT(*)
         FROM students
         WHERE grade = 10
-        LIMIT 2
+        LIMIT ?
         
       SQL
       
